@@ -32,7 +32,7 @@ The Meta dataset uses a unified four-class taxonomy consisting of background, fi
 
 | Model | Training Data | Backbone | Decoder | Download |
 | --- | --- | --- | --- | --- |
-| MODEL_FILE_Meta_OLD1 | 100% labeled | ViT-Tiny-Patch16-384 | Mask Transformer | [model files](https://drive.google.com/drive/u/1/folders/1-lCf_FMXILvCJuo2uVbo8DZrl7qHwdxJ) |
+| MODEL_FILE_Meta | 100% labeled | ViT-Tiny-Patch16-384 | Mask Transformer | [model files](https://drive.google.com/drive/u/1/folders/1-lCf_FMXILvCJuo2uVbo8DZrl7qHwdxJ) |
 
 The model folder contains the trained checkpoint, evaluation metrics, training configuration, and training-loss visualization.
 
