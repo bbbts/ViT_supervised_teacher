@@ -56,9 +56,9 @@ For example, to run inference using the fully supervised Meta teacher model:
 
 ```bash
 python3 inference.py \
-  --model-path /path/to/segmenter_supervised_META/segm/MODEL_FILE_Meta_OLD1/checkpoint.pth \
+  --model-path /path/to/checkpoint.pth \
   --input-dir $DATASET/images/test/ \
-  --output-dir /path/to/segmenter_supervised_META/segm/PREDICTION_new/meta/ \
+  --output-dir /path/to/prediction/ \
   --dataset meta \
   --gt-dir $DATASET/masks/test/
 ```
@@ -75,7 +75,7 @@ The training configuration uses a Vision Transformer Tiny backbone (`vit_tiny_pa
 
 ```bash
 python3 train.py \
-  --log-dir /path/to/segmenter_supervised_META/segm/MODEL_FILE_Meta_OLD1/ \
+  --log-dir /path/to/model_file/ \
   --dataset meta \
   --backbone vit_tiny_patch16_384 \
   --decoder mask_transformer \
